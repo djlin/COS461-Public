@@ -81,7 +81,7 @@ function test {
 function all-tests {
 
   printf "\n$testNum. TEST SHORT MESSAGE\n"
-  printf "Go Tigers!\n" > test_message.txt
+  printf "Go Braves!\n" > test_message.txt
   test "$1" "$2" $3 1 1
   ((testNum++))
 

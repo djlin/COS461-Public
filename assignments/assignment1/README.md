@@ -287,8 +287,8 @@ file]`. The client should be run as `./client-c [server IP] [server port] <
 The documentation for Python socket programming is located here:
 https://docs.python.org/2/library/socket.html.  The first few paragraphs at the
 top, the [section on socket
-objects](https://docs.python.org/2/library/socket.html#socket-objects) and the
-[first example](https://docs.python.org/2/library/socket.html#example) are
+objects](https://docs.python.org/3/library/socket.html#socket-objects) and the
+[first example](https://docs.python.org/3/library/socket.html#example) are
 particularly relevant.
 
 The files `client-python.py` and `server-python.py` contain the scaffolding
@@ -339,7 +339,7 @@ attempting to send several different messages between all 4 combinations of
 your clients and servers (C client to C server, C client to Python/Go server,
 etc.). The messages are the following:
 
-0. The short message "Go Tigers!\n"
+0. The short message "Go Braves!\n"
 0. A long, randomly generated alphanumeric message
 0. A long, randomly generated binary message
 0. Several short messages sent sequentially from separate clients to one server
